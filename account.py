@@ -25,6 +25,7 @@ class Account:
             return 0
 
         # bank_response: 1 = success 0 = invalid pin -1 = account locked/error
+        # In real world case, the code needs to be encrypted
         bank_response = BankAPI.send_PIN(self.bank, self.account_number, code)
 
         # PIN code is correct

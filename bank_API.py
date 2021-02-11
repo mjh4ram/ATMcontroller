@@ -10,7 +10,7 @@ in the future, I left the methods below blank
 '''
 class BankAPI:
     '''
-    Sends PIN code to bank's authentication backend
+    Sends encrypted PIN code to bank's authentication backend
     Returns 1 if the code is valid
     Returns 0 if the code is invalid
     Returns -1 if user account has been locked
